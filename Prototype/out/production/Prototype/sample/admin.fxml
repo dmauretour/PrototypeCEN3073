@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminController">
+   <children>
+      <Label layoutX="268.0" layoutY="81.0" text="Admin View" />
+      <Separator layoutX="157.0" layoutY="128.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Separator layoutX="297.0" layoutY="134.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Separator layoutX="441.0" layoutY="134.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Label layoutX="14.0" layoutY="120.0" text="Update Career Fair" />
+      <Label layoutX="160.0" layoutY="120.0" text="Update On Campus Event" />
+      <Label layoutX="303.0" layoutY="120.0" text="Update Off Campus Event" />
+      <Label layoutX="457.0" layoutY="120.0" text="Update Internships" />
+      <Label layoutX="13.0" layoutY="154.0" text="Name" />
+      <Label layoutX="13.0" layoutY="192.0" text="Location" />
+      <Label layoutX="13.0" layoutY="235.0" text="Date" />
+      <Label layoutX="13.0" layoutY="272.0" text="Company" />
+      <Label layoutX="160.0" layoutY="154.0" text="Name" />
+      <Label layoutX="160.0" layoutY="192.0" text="Location" />
+      <Label layoutX="160.0" layoutY="235.0" text="Date" />
+      <Label layoutX="160.0" layoutY="272.0" text="Company" />
+      <Label layoutX="303.0" layoutY="155.0" text="Name" />
+      <Label layoutX="303.0" layoutY="192.0" text="Location" />
+      <Label layoutX="303.0" layoutY="235.0" text="Date" />
+      <Label layoutX="303.0" layoutY="272.0" text="Company" />
+      <Label layoutX="447.0" layoutY="154.0" text="Name" />
+      <Label layoutX="447.0" layoutY="192.0" text="Location" />
+      <Label layoutX="447.0" layoutY="235.0" text="Date" />
+      <Label layoutX="447.0" layoutY="272.0" text="Company" />
+      <TextField fx:id="careerName" layoutX="51.0" layoutY="151.0" prefHeight="25.0" prefWidth="105.0" />
+      <TextField fx:id="careerLocation" layoutX="64.0" layoutY="188.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField fx:id="careerDate" layoutX="41.0" layoutY="231.0" prefHeight="25.0" prefWidth="114.0" />
+      <TextField fx:id="careerCompany" layoutX="64.0" layoutY="268.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField fx:id="oncampusName" layoutX="196.0" layoutY="151.0" prefHeight="25.0" prefWidth="99.0" />
+      <TextField fx:id="oncampusLocation" layoutX="209.0" layoutY="188.0" prefHeight="25.0" prefWidth="85.0" />
+      <TextField fx:id="oncampusDate" layoutX="189.0" layoutY="231.0" prefHeight="25.0" prefWidth="105.0" />
+      <TextField fx:id="oncampusCompany" layoutX="213.0" layoutY="268.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField fx:id="offcampusName" layoutX="335.0" layoutY="150.0" prefHeight="25.0" prefWidth="105.0" />
+      <TextField fx:id="offcampusLocation" layoutX="349.0" layoutY="188.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField fx:id="offcampusDate" layoutX="335.0" layoutY="231.0" prefHeight="25.0" prefWidth="105.0" />
+      <TextField fx:id="offcampusCompany" layoutX="355.0" layoutY="268.0" prefHeight="25.0" prefWidth="85.0" />
+      <TextField fx:id="internshipName" layoutX="480.0" layoutY="150.0" prefHeight="25.0" prefWidth="114.0" />
+      <TextField fx:id="internshipLocation" layoutX="494.0" layoutY="188.0" prefHeight="25.0" prefWidth="101.0" />
+      <TextField fx:id="internshipDate" layoutX="482.0" layoutY="231.0" prefHeight="25.0" prefWidth="114.0" />
+      <TextField fx:id="internshipCompany" layoutX="503.0" layoutY="268.0" prefHeight="25.0" prefWidth="91.0" />
+      <Button fx:id="careerBtn" layoutX="98.0" layoutY="316.0" mnemonicParsing="false" onAction="#careerButton" text="Button" />
+      <Button fx:id="oncampusbtn" layoutX="242.0" layoutY="316.0" mnemonicParsing="false" onAction="#oncampusButton" text="Button" />
+      <Button fx:id="offcampusBtn" layoutX="388.0" layoutY="316.0" mnemonicParsing="false" onAction="#offcampusButton" text="Button" />
+      <Button fx:id="internBtn" layoutX="547.0" layoutY="316.0" mnemonicParsing="false" onAction="#internshipButton" text="Button" />
+      <Label layoutX="39.0" layoutY="27.0" text="FGCU SOFTWARE ENGINEERING REPOSITORY" textFill="#941414">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
